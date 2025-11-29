@@ -1,0 +1,36 @@
+# Create .gitignore to exclude sensitive files
+@'
+# Secrets and sensitive data
+*.env
+.env*
+*secrets*.json
+*secrets*.md
+gitleaks-report.json
+exploitation-simulation-results.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports (keep structure, remove detailed reports)
+reports/trivy/*.json
+reports/debug/*.json
+
+# Logs
+*.log
+'@ | Out-File -FilePath ".gitignore" -Encoding utf8
+
+Write-Host "Created .gitignore" -ForegroundColor Green

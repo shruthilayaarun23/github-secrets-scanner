@@ -1,0 +1,250 @@
+﻿{
+    "metadata":  {
+                     "total_repos":  10,
+                     "scan_date":  "2025-11-16 20:07:59",
+                     "total_secrets":  19,
+                     "repos_with_secrets":  3
+                 },
+    "results":  [
+                    {
+                        "RepoName":  "app-node",
+                        "FullName":  "shruthilayaarun23/app-node",
+                        "TrivyFindings":  4,
+                        "ReportPath":  "D:\\Users\\Shruthi\\project\\github-secrets-scanner\\reports\\trivy\\app-node.json",
+                        "ScanTime":  "2025-11-16 20:07:08",
+                        "Status":  "Success",
+                        "SecretDetails":  [
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "Asymmetric Private Key",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  7,
+                                                  "RuleID":  "private-key"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "Asymmetric Private Key",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  18,
+                                                  "RuleID":  "private-key"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "Asymmetric Private Key",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  24,
+                                                  "RuleID":  "private-key"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "PyPI upload token",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  51,
+                                                  "RuleID":  "pypi-upload-token"
+                                              }
+                                          ]
+                    },
+                    {
+                        "RepoName":  "app-py",
+                        "FullName":  "shruthilayaarun23/app-py",
+                        "TrivyFindings":  9,
+                        "ReportPath":  "D:\\Users\\Shruthi\\project\\github-secrets-scanner\\reports\\trivy\\app-py.json",
+                        "ScanTime":  "2025-11-16 20:07:11",
+                        "Status":  "Success",
+                        "SecretDetails":  [
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "GitHub App Token",
+                                                  "Severity":  "CRITICAL",
+                                                  "Line":  35,
+                                                  "RuleID":  "github-app-token"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "GitHub OAuth Access Token",
+                                                  "Severity":  "CRITICAL",
+                                                  "Line":  34,
+                                                  "RuleID":  "github-oauth"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "GitHub Personal Access Token",
+                                                  "Severity":  "CRITICAL",
+                                                  "Line":  33,
+                                                  "RuleID":  "github-pat"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "GitHub Personal Access Token",
+                                                  "Severity":  "CRITICAL",
+                                                  "Line":  37,
+                                                  "RuleID":  "github-pat"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "GitLab Personal Access Token",
+                                                  "Severity":  "CRITICAL",
+                                                  "Line":  40,
+                                                  "RuleID":  "gitlab-pat"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "GitLab Personal Access Token",
+                                                  "Severity":  "CRITICAL",
+                                                  "Line":  41,
+                                                  "RuleID":  "gitlab-pat"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "Slack token",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  84,
+                                                  "RuleID":  "slack-access-token"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "Slack token",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  85,
+                                                  "RuleID":  "slack-access-token"
+                                              },
+                                              {
+                                                  "File":  ".env",
+                                                  "Title":  "Stripe Secret Key",
+                                                  "Severity":  "CRITICAL",
+                                                  "Line":  61,
+                                                  "RuleID":  "stripe-secret-token"
+                                              }
+                                          ]
+                    },
+                    {
+                        "RepoName":  "container-security",
+                        "FullName":  "shruthilayaarun23/container-security",
+                        "TrivyFindings":  0,
+                        "ReportPath":  "D:\\Users\\Shruthi\\project\\github-secrets-scanner\\reports\\trivy\\container-security.json",
+                        "ScanTime":  "2025-11-16 20:07:13",
+                        "Status":  "Success",
+                        "SecretDetails":  [
+
+                                          ]
+                    },
+                    {
+                        "RepoName":  "Cryptography",
+                        "FullName":  "shruthilayaarun23/Cryptography",
+                        "TrivyFindings":  0,
+                        "ReportPath":  "D:\\Users\\Shruthi\\project\\github-secrets-scanner\\reports\\trivy\\Cryptography.json",
+                        "ScanTime":  "2025-11-16 20:07:17",
+                        "Status":  "Success",
+                        "SecretDetails":  [
+
+                                          ]
+                    },
+                    {
+                        "RepoName":  "network_analomy_detection",
+                        "FullName":  "shruthilayaarun23/network_analomy_detection",
+                        "TrivyFindings":  0,
+                        "ReportPath":  "D:\\Users\\Shruthi\\project\\github-secrets-scanner\\reports\\trivy\\network_analomy_detection.json",
+                        "ScanTime":  "2025-11-16 20:07:21",
+                        "Status":  "Success",
+                        "SecretDetails":  [
+
+                                          ]
+                    },
+                    {
+                        "RepoName":  "OWASP-10-CTF",
+                        "FullName":  "shruthilayaarun23/OWASP-10-CTF",
+                        "TrivyFindings":  0,
+                        "ReportPath":  "D:\\Users\\Shruthi\\project\\github-secrets-scanner\\reports\\trivy\\OWASP-10-CTF.json",
+                        "ScanTime":  "2025-11-16 20:07:40",
+                        "Status":  "Success",
+                        "SecretDetails":  [
+
+                                          ]
+                    },
+                    {
+                        "RepoName":  "Phishing-Detection",
+                        "FullName":  "shruthilayaarun23/Phishing-Detection",
+                        "TrivyFindings":  0,
+                        "ReportPath":  "D:\\Users\\Shruthi\\project\\github-secrets-scanner\\reports\\trivy\\Phishing-Detection.json",
+                        "ScanTime":  "2025-11-16 20:07:45",
+                        "Status":  "Success",
+                        "SecretDetails":  [
+
+                                          ]
+                    },
+                    {
+                        "RepoName":  "terraform-aws-infra",
+                        "FullName":  "shruthilayaarun23/terraform-aws-infra",
+                        "TrivyFindings":  0,
+                        "ReportPath":  "D:\\Users\\Shruthi\\project\\github-secrets-scanner\\reports\\trivy\\terraform-aws-infra.json",
+                        "ScanTime":  "2025-11-16 20:07:47",
+                        "Status":  "Success",
+                        "SecretDetails":  [
+
+                                          ]
+                    },
+                    {
+                        "RepoName":  "terraform-lambda",
+                        "FullName":  "shruthilayaarun23/terraform-lambda",
+                        "TrivyFindings":  0,
+                        "ReportPath":  "D:\\Users\\Shruthi\\project\\github-secrets-scanner\\reports\\trivy\\terraform-lambda.json",
+                        "ScanTime":  "2025-11-16 20:07:51",
+                        "Status":  "Success",
+                        "SecretDetails":  [
+
+                                          ]
+                    },
+                    {
+                        "RepoName":  "Zero_Trust_Healthcare",
+                        "FullName":  "shruthilayaarun23/Zero_Trust_Healthcare",
+                        "TrivyFindings":  6,
+                        "ReportPath":  "D:\\Users\\Shruthi\\project\\github-secrets-scanner\\reports\\trivy\\Zero_Trust_Healthcare.json",
+                        "ScanTime":  "2025-11-16 20:07:59",
+                        "Status":  "Success",
+                        "SecretDetails":  [
+                                              {
+                                                  "File":  "code/gcloud/telemedicine/patient-imaging/app/server.key",
+                                                  "Title":  "Asymmetric Private Key",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  2,
+                                                  "RuleID":  "private-key"
+                                              },
+                                              {
+                                                  "File":  "code/gcloud/telemedicine/patient-imaging/app/server.pem",
+                                                  "Title":  "Asymmetric Private Key",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  2,
+                                                  "RuleID":  "private-key"
+                                              },
+                                              {
+                                                  "File":  "code/patient_imaging_info/v4/server.key",
+                                                  "Title":  "Asymmetric Private Key",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  2,
+                                                  "RuleID":  "private-key"
+                                              },
+                                              {
+                                                  "File":  "code/patient_imaging_info/v4/server.pem",
+                                                  "Title":  "Asymmetric Private Key",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  2,
+                                                  "RuleID":  "private-key"
+                                              },
+                                              {
+                                                  "File":  "code/telemedicine/patient-imaging/app/server.key",
+                                                  "Title":  "Asymmetric Private Key",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  2,
+                                                  "RuleID":  "private-key"
+                                              },
+                                              {
+                                                  "File":  "code/telemedicine/patient-imaging/app/server.pem",
+                                                  "Title":  "Asymmetric Private Key",
+                                                  "Severity":  "HIGH",
+                                                  "Line":  2,
+                                                  "RuleID":  "private-key"
+                                              }
+                                          ]
+                    }
+                ]
+}
