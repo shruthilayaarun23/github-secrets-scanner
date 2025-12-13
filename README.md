@@ -51,11 +51,9 @@ MULTI-REPO EXPLOITATION SIMULATION
 ## Visualizations
 
 ### Overall Severity Distribution
-![Severity Chart]
 <img width="552" height="528" alt="image" src="https://github.com/user-attachments/assets/320050f8-f7b0-4bea-94b1-7944fe5dadfd" />
 
 ### Repository Secrets Heatmap
-![Secrets Heatmap]
 <img width="878" height="597" alt="image" src="https://github.com/user-attachments/assets/3202ae82-36ce-4056-9aec-d573bf0d6ed8" />
 
 ## How It Works
